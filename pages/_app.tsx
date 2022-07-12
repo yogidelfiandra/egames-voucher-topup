@@ -6,6 +6,7 @@ import '../styles/detail.css';
 import '../styles/homepage.css';
 import '../styles/sign-in.css';
 import '../styles/sign-up-photo.css';
+import '../styles/sign-up-success.css';
 import '../styles/sign-up.css';
 import '../styles/utilities.css';
 
