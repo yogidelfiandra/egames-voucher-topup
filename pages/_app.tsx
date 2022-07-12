@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import '../styles/checkout.css';
 import '../styles/detail.css';
 import '../styles/homepage.css';
 import '../styles/utilities.css';
