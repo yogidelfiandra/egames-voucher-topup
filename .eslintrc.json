@@ -37,14 +37,7 @@
       "enabled",
       { "allow": "single-child" }
     ],
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        "components": ["Link"],
-        "specialLink": ["hrefLeft", "hrefRight"],
-        "aspects": ["noHref", "invalidHref", "preferButton"]
-      }
-    ],
+    "jsx-a11y/anchor-is-valid": "off",
     "no-trailing-spaces": ["error", { "skipBlankLines": true }],
     "no-tabs": ["error", { "allowIndentationTabs": true }]
   }
