@@ -11,6 +11,7 @@ import '../styles/sign-in.css';
 import '../styles/sign-up-photo.css';
 import '../styles/sign-up-success.css';
 import '../styles/sign-up.css';
+import '../styles/transactions.css';
 import '../styles/utilities.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
