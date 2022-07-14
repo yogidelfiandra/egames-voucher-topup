@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Auth from './auth';
-import Menu from './menu';
+import Auth from './Auth';
+import Menu from './Menu';
 import ToogleMenu from './ToogleMenu';
 
 export default function Navbar() {
