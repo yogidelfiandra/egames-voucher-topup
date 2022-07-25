@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-interface GameItemProps {
+export interface GameItemProps {
   thumbnail:
     | 'Thumbnail-1'
     | 'Thumbnail-2'
@@ -25,7 +25,7 @@ export default function GameItem(props: GameItemProps) {
               src={`/img/${thumbnail}.png`}
               width={205}
               height={270}
-              alt=''
+              alt={`img-${thumbnail}`}
             />
           </div>
           <div className='cover position-absolute bottom-0 m-32'>
